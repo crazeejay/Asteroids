@@ -20,6 +20,8 @@ namespace Functions
         //Recoil for the player
         public float recoil = 5;
 
+        //Get component reference to Regidbody2D
+
 
         // Use this for initialization
         void Start()
