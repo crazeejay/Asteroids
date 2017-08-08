@@ -20,8 +20,6 @@ namespace Functions
         //Recoil for the player
         public float recoil = 5;
 
-        //Get component reference to Regidbody2D
-
 
         // Use this for initialization
         void Start()
@@ -67,6 +65,8 @@ namespace Functions
             rigid.AddForce(-transform.right * recoil, ForceMode2D.Impulse);
 
             Destroy(projectile, 1.2f);
+
+            //This is adding force now
         }
     }
 }
